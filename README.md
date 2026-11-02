@@ -1,3 +1,4 @@
+[Modrinth](https://modrinth.com/project/UZIMNVfL)
 # DiscMenu
 
 A Paper plugin (1.20.x, Java 17+) that gives players custom music discs for free once per hour through a GUI menu. (Use [CustomDiscs SVC](https://modrinth.com/project/1yowwDpk))
