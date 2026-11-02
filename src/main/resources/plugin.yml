@@ -1,0 +1,23 @@
+name: DiscMenu
+version: '1.0.0'
+main: com.example.discsplugin.DiscsPlugin
+api-version: '1.20'
+author: HallowedMold900
+description: Plugin for issuing custom discs once every 1 hour, with a menu and admin commands.
+
+commands:
+  discsmenu:
+    description: Open the menu to get the disc.
+    usage: /discsmenu
+  discsadmin:
+    description: Manage the disc list (for admins only)
+    usage: /discsadmin <add|remove|list|reload>
+    permission: discs.admin
+
+permissions:
+  discs.admin:
+    description: Access to the plugin control for discs
+    default: op
+  discs.use:
+    description: Access to the /discsmenu
+    default: true

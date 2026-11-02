@@ -1,0 +1,21 @@
+# How many hours until a player can claim another free disc
+cooldown-hours: 1
+
+# Menu title (supports & color codes)
+menu-title: "&8Discs"
+
+messages:
+  received: "&aYou received the disc! You can claim the next one in %hours% h."
+  cooldown: "&cYou already claimed a disc. Please wait: &e%time%"
+  no-permission: "&cYou don't have permission to do that"
+  players-only: "&cThis command is only available to players"
+  added: "&aThe disc has been added to the menu!"
+  removed: "&aDisc #%index% has been removed from the menu"
+  hold-item: "&cHold the disc in your main hand before using this command"
+  invalid-index: "&cInvalid disc number"
+  need-number: "&cSpecify the disc number: /discsadmin remove <number>"
+  usage-admin: "&eUsage: /discsadmin <add|remove|list|reload>"
+  list-empty: "&7The disc list is empty"
+  list-header: "&6Disc list:"
+  reload-done: "&aConfiguration and disc list reloaded"
+  inventory-full: "&eYour inventory was full, some items were dropped on the ground"
